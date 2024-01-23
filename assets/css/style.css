@@ -14,17 +14,17 @@ body {
 }
 
 .navbar-item:hover {
-    color: #58d5f7;
+    color: #65f758;
     text-decoration: none;
 }
 
 .hero-background {
     overflow: hidden;
     position: relative;
-    background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
-    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
-    background: -webkit-radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(102, 0, 255));
+    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(102, 0, 255));
+    background: -webkit-radial-gradient(rgb(102, 0, 255), rgb(105, 86, 235));
+    background: radial-gradient(rgb(102, 0, 255), rgb(21, 20, 20));
 }
 
 .bold {
@@ -44,15 +44,15 @@ body {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 190px;
     padding-left: 0;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 .header-btn {
-    background-color: #0ABCEB;
+    background-color: #ad25f1;
     border-radius: 10px;
-    border: #0ABCEB;
+    border: #a600ff;
     float: right;
     width: 195px;
     height: 51px;
@@ -63,7 +63,7 @@ body {
 }
 
 .header-btn:hover {
-    background-color: #58d5f7;
+    background-color: #a600ff;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -114,9 +114,9 @@ body {
 .hero-btn {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #25F18B;
+    background-color: #ad25f1;
     border-radius: 10px;
-    border: 1px solid #25F18B;
+    border: 1px solid #a600ff;
     width: 210px;
     height: 51px;
     color: white;
@@ -124,7 +124,7 @@ body {
 }
 
 .hero-btn:hover {
-    background-color: #6affb4;
+    background-color: #c800ff;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -270,7 +270,7 @@ body {
 }
 
 .pricing-background {
-    background-color: #e8e8e8;
+    background-color: #cfcfcf;
 }
 
 .pricing-section-header {
@@ -328,7 +328,7 @@ ul {
 
 .plan-title {
     font-size: 18px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .plan-cost {
@@ -382,7 +382,7 @@ ul {
 .team-container {
     text-align: center;
     margin: auto;
-    max-width: 920px;
+    max-width: 950px;
 }
 
 .team-section-header {
@@ -491,14 +491,18 @@ ul {
 .social-links {
     float: none;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .social-link {
-    margin-right: 350px;
+    margin-right: 555px;
 }
 
 .strips {
     position: absolute;
     max-width: 1280px;
+}
+
+.download-luxcoria{
+padding: -90px;
 }
